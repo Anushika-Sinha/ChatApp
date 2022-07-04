@@ -1,0 +1,86 @@
+body{
+    background-color: black;
+}
+
+h1{
+    margin-top: 12px;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: rgb(207, 142, 164);
+}
+
+.logo{
+    display: block;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+}
+
+.container{
+    max-width: 955px;
+    color: rgb(207, 142, 164);
+    margin: auto;
+    height: 60vh;
+    border: 2px solid rgb(207, 142, 164);
+    border-radius: 10px;
+    padding: 33px;
+    overflow-y: auto;
+    margin-bottom: 23px;
+}
+
+.message{
+    background-color: black;
+    width: 25%;
+    padding: 10px;
+    margin: 17px 12px;
+    border: 2px solid rgb(207, 142, 164);
+    border-radius: 10px;
+    color: rgb(207, 142, 164);
+    outline: none;
+}
+
+.left{
+    float: left;
+    clear: both;
+}
+
+.right{
+    float: right;
+    clear: both;
+}
+
+#send-container{
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 1031px;
+    width: 100%;
+}
+
+#messageInp{
+    width: 89%;
+    border: 2px solid rgb(207, 142, 164);
+    border-radius: 10px;
+    height: 34px;
+    background-color: black;
+    color: rgb(207, 142, 164);
+    outline: none;
+}
+
+.btn{
+    width: 9%;
+    cursor: pointer;
+    border: 2px solid rgb(207, 142, 164);
+    background-color: black;
+    color:rgb(207, 142, 164);
+    border-radius: 8px;
+}
+
+.fa{
+    line-height: 2.5;
+}
+
+.fa-location-arrow{
+    height: 34px;
+}
